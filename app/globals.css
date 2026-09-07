@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f4f8fb;
+  color: #232931;
+  line-height: 1.6;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Smooth transitions */
+button,
+a {
+  transition: all 0.2s ease;
+}
